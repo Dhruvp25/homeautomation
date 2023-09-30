@@ -1,7 +1,7 @@
 // wifi controlled home automation using Blynk App & ESP8266
-#define BLYNK_TEMPLATE_ID "TMPL3sHiCBFFN" //blynk template ID
-#define BLYNK_TEMPLATE_NAME "IOT home Automation " //blynk template  name
-#define BLYNK_AUTH_TOKEN "W1M_AIyy1knNNCMBOQHZpZmfdDJ9buYy" // enter your blynk auth token
+#define BLYNK_TEMPLATE_ID "your_template_ID" //blynk template ID
+#define BLYNK_TEMPLATE_NAME "your_template_name" //blynk template  name
+#define BLYNK_AUTH_TOKEN "your_auth_token" // enter your blynk auth token
  
 #define BLYNK_PRINT Serial
 #include <gpio.h>
@@ -10,8 +10,8 @@
  
 char auth[] = BLYNK_AUTH_TOKEN;
  
-char ssid[] = "TARUN"; // Your Wifi Name
-char pass[] = "10042000"; // Your Wifi Password
+char ssid[] = "SSID"; // Your Wifi Name
+char pass[] = "Pass!!"; // Your Wifi Password
  
 //in the below code, we have set all values reverse
 //For value==1, digitalWrite is "LOW" as the realy module is active "LOW" to turn device ON.
